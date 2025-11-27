@@ -1,0 +1,83 @@
+/* ==== CONFIGURAÇÕES GERAIS ==== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(120deg, #5f27cd, #d63031);
+    color: white;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.faci{
+    font-size:xx-large;
+}
+.wyden{
+    top: 300px;
+}
+
+.titulo-login {
+    color: white; 
+    margin-bottom: 200px; 
+    text-align: center;
+    margin-left: 0;
+    width:auto;
+    margin-top: 50px;
+    position: relative;
+    top: auto;
+}
+
+.centro{
+   top: auto;
+    
+}
+
+.ajeitar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.baixar{
+    position: relative;
+    top: 40px;
+}
+/* ==== CONTAINER GERAL ==== */
+.login-container{
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+     backdrop-filter: blur(8px);
+     height: auto;
+     display: block;
+}
+
+/* ==== TÍTULOS ==== */
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* ==== PRODUTO ==== */
+
+.produto {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 12px;
+}
